@@ -1,3 +1,4 @@
+
 <template>
     <component :is="tag" :class="size">
         <slot/>
@@ -5,6 +6,7 @@
 </template>
 
 <script>
+// Örnek component dosyası
 export default {
     name : 'CustomText',
     props:{
